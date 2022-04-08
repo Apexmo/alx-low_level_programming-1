@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * main -Entry point 
+ *main - entry point 
  *
- * Return: 0 (Always (Success)
+ *Return: Always 0 (Success)
  */
 
-int main(void)
+int main((void)
 {
 int n;
 
@@ -22,14 +22,15 @@ printf("%i is zero\n", n);
 
 else if (n<0)
 {
-printf("%i is negative\n", n);
+printf("%i is negative\n", n)'
 }
 
 else 
 {
-printf("%i is posive\n", n);
+printf("%i is positive\n", n);
 }
 
-Return (0);
+return (0);
 
+}
 
