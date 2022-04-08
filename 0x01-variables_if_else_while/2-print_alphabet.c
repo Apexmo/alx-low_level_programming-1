@@ -1,6 +1,6 @@
-#include <stdio.h>
-/**
- * main - entry point 
+include <stdio.h>
+/*
+ *main - entry point 
  *
  * Return: aLWAYWS 0
  */
