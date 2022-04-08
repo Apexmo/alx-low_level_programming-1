@@ -1,15 +1,14 @@
-include <stdio.h>
-/*
- *main - entry point 
+#include <stdio.h>
+/**
  *
- * Return: aLWAYWS 0
+ * main - entry point
+ * return always 0
  */
 int main(void)
 {
+char alphabet
 
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (alphabet = 'a'; alpahbet <= 'z'; alphabet++)
 {
 putchar(alphabet);
 }
