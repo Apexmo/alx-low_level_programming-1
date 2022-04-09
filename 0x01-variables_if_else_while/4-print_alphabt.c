@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
  * main - Entry point 
- *
+ * 
  * Return: Always 0 (Success/correct)
  */
 
 int main(void)
-
 {
-char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char alphabet; 
+
+for (alphabet = 'a'; alphabet <= 'Z'; alphabet++)
 {
 if (alphabet == 'q')
 continue;
@@ -25,5 +25,4 @@ putchar('\n');
 
 return (0);
 
-
-
+}
