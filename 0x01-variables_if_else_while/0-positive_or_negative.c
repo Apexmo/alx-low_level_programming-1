@@ -1,16 +1,16 @@
-#include <stdlib.h>
+#include <stlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
  * main - Entry point 
  * 
- * Return: ALways 0(success/correct)
+ * Return: Always 0 (Success/correct)
  */
 
 int main(void)
 {
-int n; 
+int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
@@ -30,6 +30,6 @@ else
 printf("%i is positive\n", n);
 }
 
-return (0)
+return (0);
 
 }
