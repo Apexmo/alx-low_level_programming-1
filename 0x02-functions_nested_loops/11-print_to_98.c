@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - Print all nat numbers,
- * 		in order separated
+ * in order separated
  * @n: THe number to begin counting at.
  */
 void print_to_98(int n)
@@ -20,4 +20,4 @@ while (n < 98)
 printf("%d, ", n++);
 printf("%d\n", n);
 }
-}
+
