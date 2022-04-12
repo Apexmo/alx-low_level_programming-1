@@ -1,8 +1,8 @@
-#include "main.h"
+#include "main.h""
 
 /**
- print_to_98 - Print all natural numbers from input to,
- *
+ * print_to_98 - Print all nat numbers 
+ * 		in order separated 
  * @n: THe number to begin counting at.
  */
 void print_to_98(int n)
