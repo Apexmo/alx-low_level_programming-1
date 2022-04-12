@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_to_98 - Print all natural numbers from input to,
+ print_to_98 - Print all natural numbers from input to,
  *
  * @n: THe number to begin counting at.
  */
@@ -14,10 +14,11 @@ printf("%d, ", n--);
 printf("%d\n", n);
 }
 
-else 
+else
 {
 while (n < 98)
 printf("%d, ", n++);
 printf("%d\n", n);
 }
 }
+~ 
