@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main-main block
- * Description print -putchar in a new file 
+ * Description print -putchar in a new file
  * Return: this program returns zero
  */
 int main(void)
