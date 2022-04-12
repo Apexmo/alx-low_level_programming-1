@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Prints every minute of the jack bauewr song
- *
+ * 		jack bauer, statrting from 00:00 to 23:50.
  */
 void jack_bauer(void);
 {
