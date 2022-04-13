@@ -5,7 +5,7 @@
  * terms not exceeding
  *heysss there Return always zero.
  */
-int main (void)
+int main(void)
 {
 unsigned long fib1 = 0, fib2 = 1, fibsum;
 float tot_sum;
