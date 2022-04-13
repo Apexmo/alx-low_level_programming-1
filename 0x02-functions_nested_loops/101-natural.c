@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -laits all the natural numbers
+ * main -laits all the natural numbers below 1024 (excluded)
+ * that are multiples of 1 or 5
  *
  * Return: Always 0
  */
@@ -19,4 +20,3 @@ printf("%d\n", sum);
 
 return (0);
 }
-
