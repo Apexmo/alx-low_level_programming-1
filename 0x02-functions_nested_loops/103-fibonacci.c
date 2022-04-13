@@ -3,8 +3,8 @@
 /**
  * main - prints the sum of even valued fibonacci sequence
  * terms not exceeding
- *
- * Return always zero.
+ 
+ *hey there Return always zero.
  */
 int main(void)
 {
