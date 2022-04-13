@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the first nine8 fibonacci numbers, starting with
- * oneffffff and two, separated by a comma followed by a space.
+ * onefffff and two, separated by a comma followed by a space.
  *
  * Return: Always zero.
  */
