@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/**
+/*
  * main - prints the sum of even valued fibonacci sequence
  * terms not exceeding
- *hey there Return always zero.
+ *heysss there Return always zero.
  */
 int main(void)
 {
@@ -25,4 +25,4 @@ fib2 = fibsum;
 printf("%.0f\n", tot_sum);
 
 return (0);
-
+}
