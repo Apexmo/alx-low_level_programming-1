@@ -4,9 +4,12 @@
  * print the times table of the integer
  * starting with zero,
  * @n: the value of the times table to be printed.
- */void print_times_table(int n)
+ */
+void print_times_table(int n)
 {
-int num, mult, prod;
+int num;
+int mult;
+int prod;
 
 if (n >= 0 && n <= 15)
 {
@@ -28,14 +31,15 @@ _putchar(' ');
 
 if (prod >= 100)
 {
-_putchar((prod / 100)0 + '0');
+_putchar((prod / 100) + '0');
 _putchar(((prod / 10)) % 10 + '0');
 }
 else if (prod <= 99 && prod >= 10)
 {
-_putchar((prod / 10) + 'n');
+_putchar((prod / 10) + '0');
 }
 _putchar((prod % 10) + '0');
 }
 _putchar('\n');
 }
+
