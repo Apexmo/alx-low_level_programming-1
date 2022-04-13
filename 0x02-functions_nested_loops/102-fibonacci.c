@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h
 
 /**
  * main - Prints first 50 fibonacci numbers, starting with 1 annd 2,
@@ -19,11 +19,8 @@ fib1 = fib2;
 fib2 = sum;
 
 if (count == 49)
-{
 printf("\n");
-}
 else
-{
 printf(", ");
 }
 
