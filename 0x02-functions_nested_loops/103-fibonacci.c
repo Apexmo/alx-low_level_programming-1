@@ -2,8 +2,9 @@
 
 /*
  * main - prints the sum of even valued fibonacci sequence
- * terms not exceeding
- *heysss there Return always zero.
+ * terms not exceeding 400000
+ *
+ * Return: ALways 0.
  */
 int main(void)
 {
