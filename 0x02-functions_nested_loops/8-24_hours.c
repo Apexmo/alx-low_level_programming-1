@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Prints every minute of the jack bauewr song
- * 		Jack Bauer, starting from.
+ * jack Bauer, starting from.
  */
 void jack_bauer(void);
 {
