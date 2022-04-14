@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * print_numbers - print numbers zero to nine
+ * print_numbers - print the number zero to nine
  *
- * Return: Always 0.
+ * Return: Always zero (Success)
  */
+
 void print_numbers(void)
 {
 
