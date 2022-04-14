@@ -5,7 +5,7 @@
  * @size - limit
  *
  * Return: void
- */
+*/
 
 void print_triangle(int size)
 {
@@ -17,7 +17,7 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
 {
-if ((size - i -1) > J)
+if ((size - i - 1) > J)
 _putchar(' ');
 else
 _putchar('#');
@@ -29,4 +29,4 @@ else
 {
 _putchar('\n');
 }
-}
+
