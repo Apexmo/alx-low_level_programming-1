@@ -2,7 +2,7 @@
 
 /**
  * print_-triangle - prints triangle
- * @size - limit
+ * @size - limit messing arounf
  *
  * Return: void
 */
@@ -29,4 +29,4 @@ else
 {
 _putchar('\n');
 }
-
+}
