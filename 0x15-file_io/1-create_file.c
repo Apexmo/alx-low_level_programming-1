@@ -1,31 +1,34 @@
 #include "main.h"
 
 /**
- * create_file - Function that creates a file
- * @filename: type char filename pointer of FD
- * @text_content: type char pointer of char
- * Return: -1 if NULL in FN, 1 on sucess
+ * append_text_to_file - appends text at the end of a file
+ * @filename: file to append the text to
+ * @text_content: content to append into the file
+ *
+ * Return: 1 on success and -1 on failure
  */
-int create_file(const char *filename, char *text_content)
-{
-	int final_out = 0;
-	int  file = 0;
-	int  x = 0;
 
-	if (filename == NULL)
+int append_text_to_file(const char *filename, char *text_content)
+{
+	int fd, t, s = 0;
+
+	if (!filename)
 		return (-1);
-	file = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
-	if (file == -1)
+
+	fd = open(filename, O_WRONLY | O_APPEND);
+	if (fd < 0)
 		return (-1);
-	if (text_content != NULL)
+
+	if (text_content)
 	{
-		while (*(text_content + x) != '\0')
-		{
-			x++;
-		}
-		final_out = write(file, text_content, x);
+		while (text_content[s])
+			s++;
+		t = write(fd, text_content, s);
+		if (t != s)
+			return (-1);
 	}
-	if (final_out == -1 && final_out != x)
-		return (-1);
+
+	close(fd);
+
 	return (1);
 }
