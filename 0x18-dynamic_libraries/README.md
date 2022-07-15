@@ -1,12 +1,17 @@
-## 0x18. C - Dynamic libraries
+# 0x18. C - Dynamic libraries
 
-### Mandatory Tasks 
+## Mandatory Tasks 
 
-Task 0 
-0. A library is not a luxury but one of the necessities of life
+#### Task 0 
+`0.` A library is not a luxury but one of the necessities of life
 
-Task 1 
-1. Without libraries what have we? We have no past and no future
+#### Repo:
+* GitHub repository: `alx-low_level_programming`
+   * Directory: `0x18-dynamic_libraries`
+   * File: `libdynamic.so, main.h`
+
+#### Task 1 
+`1.` Without libraries what have we? We have no past and no future
 * Create a script that creates a dynamic library called `liball.so` from all the `.c` files that are in the current directory.
 
 #### Repo:
@@ -14,10 +19,10 @@ Task 1
    * Directory: `0x18-dynamic_libraries`
    * File: `1-create_dynamic_lib.sh`
 
-### Advanced Tasks
+## Advanced Tasks
 
-Task 2
-2. Let's call C functions from Python
+#### Task 2
+`2.` Let's call C functions from Python
 I know, you’re missing C when coding in Python. So let’s fix that!
 
 Create a dynamic library that contains C functions that can be called from Python. See example for more detail.
@@ -27,8 +32,8 @@ Create a dynamic library that contains C functions that can be called from Pytho
    *  Directory: `0x18-dynamic_libraries`
    *  File: `100-operations.so`
 
-Task 3 
-3. Code injection: Win the Giga Millions! 
+#### Task 3 
+`3.` Code injection: Win the Giga Millions! 
 I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 75 + 9. If you could run two commands on the same server where the Giga Millions program runs, could you make me win the Jackpot?
 
    * Our mole got us a copy of the program, you can download it here. Our mole also gave us a piece of documentation:
@@ -46,3 +51,4 @@ I bought a ticket for the Giga Millions and chose these numbers: 9, 8, 10, 24, 7
    * Before running the gm program, MSS always check the content of the directory
    * MSS always exit after running the program gm
    * TL;DR; This is what is going to happen
+
